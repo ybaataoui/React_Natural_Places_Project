@@ -7,10 +7,12 @@ import Footer from '../components/Footer'
 const App = () => {
 
   return (
-    <div className='App'>
-      <Header />
-      <Places />
-      <Footer />
+    <div className='container-fluid'>
+      <div className='App'>
+        <Header />
+        <Places />
+        <Footer />
+      </div>
     </div>
   )
 }
